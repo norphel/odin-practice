@@ -1,5 +1,7 @@
 const title = document.querySelector(".title");
 title.addEventListener("click", () => {
   const listItems = document.querySelector(".listItems");
-  listItems.classList.toggle("inactive");
+  const dropdownArrow = document.querySelector('img[alt="dropdown arrow"]');
+  listItems.classList.toggle("active");
+  dropdownArrow.classList.toggle("active");
 });
