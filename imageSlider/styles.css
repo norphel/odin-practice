@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+li {
+    list-style: none;
+}
+li>img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+button {
+    border: none;
+}
+button:hover {
+    cursor: pointer;
+}
